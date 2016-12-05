@@ -76,9 +76,9 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ## Code samples
 
 ### JSON
-```
+```json
 {
-  'stringKey': 'value',
+  stringKey: 'value',
   directKey: 'another value',
   number: 10
 }

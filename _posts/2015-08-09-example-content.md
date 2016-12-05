@@ -78,9 +78,9 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ### JSON
 ```json
 {
-  stringKey: 'value',
-  directKey: 'another value',
-  number: 10
+  'stringKey': 'value',
+  'anotherKey': 'another value',
+  'number': 10
 }
 ```
 

@@ -106,7 +106,7 @@ class Notebook
     @notes << note.clone
   end
   def clean
-    @notes.clear	
+    @notes.clear
   end
   def notes
     @notes

@@ -85,7 +85,7 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ```
 
 ### Javascript
-```javascript
+```js
 (function() {
   var __indexOf = Array.prototype.indexOf || function(item) {
     for (var i = 0, l = this.length; i < l; i++) {
@@ -97,7 +97,7 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ```
 
 ### Ruby
-```ruby
+```rb
 class Notebook
   def initialize()
     @notes = []

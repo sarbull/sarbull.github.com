@@ -24,16 +24,10 @@ permalink:          /:year/:month/:day/:title/
 #markdown:           kramdown
 #highlighter:        rouge
 
-#markdown: kramdown
-#kramdown:
-#  input: GFM
-#  syntax_highlighter: rouge
-  
-  
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: pygments
+  syntax_highlighter: rouge
 
 # Navigation
 nav:

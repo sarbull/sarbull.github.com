@@ -100,12 +100,12 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ```ruby
 class Notebook
   def initialize()
-    @notes = [] # массив заметок
+    @notes = []
   end
-  def add_note(note) # добаавляет заметку в массив заметок
+  def add_note(note)
     @notes << note.clone
   end
-  def clean # удаляет все заметки
+  def clean
     @notes.clear	
   end
   def notes

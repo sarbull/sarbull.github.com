@@ -76,11 +76,20 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ## Code samples
 
 ### JSON
+```
+{
+  "stringKey": "value",
+  "anotherKey": "another value",
+  "number": 10
+}
+```
+
+### JSON
 ```json
 {
-  'stringKey': 'value',
-  'anotherKey': 'another value',
-  'number': 10
+  "stringKey": "value",
+  "anotherKey": "another value",
+  "number": 10
 }
 ```
 

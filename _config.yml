@@ -21,9 +21,13 @@ baseurl:            ""
 permalink:          /:year/:month/:day/:title/
 
 # Markdown
-markdown:           kramdown
+#markdown:           kramdown
 #highlighter:        rouge
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Navigation
 nav:

@@ -1,5 +1,5 @@
 ---
-title:        "How i build this.blog"
+title:        "How i built this.blog"
 
 description:  ""
 image:        ""

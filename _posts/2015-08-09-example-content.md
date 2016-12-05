@@ -76,15 +76,6 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ## Code samples
 
 ### JSON
-```
-{
-  "stringKey": "value",
-  "anotherKey": "another value",
-  "number": 10
-}
-```
-
-### JSON
 ```json
 {
   "stringKey": "value",
@@ -92,4 +83,36 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
   "number": 10
 }
 ```
+
+### Javascript
+```javascript
+(function() {
+  var __indexOf = Array.prototype.indexOf || function(item) {
+    for (var i = 0, l = this.length; i < l; i++) {
+      if (this[i] === item) return i;
+    }
+    return -1;
+  };
+})();
+```
+
+### Ruby
+```ruby
+class Notebook
+	def initialize()
+		@notes = [] # массив заметок
+	end
+	def add_note(note) # добаавляет заметку в массив заметок
+		@notes << note.clone
+	end
+	def clean # удаляет все заметки
+		@notes.clear	
+	end
+	def notes
+		@notes
+	end
+end
+```
+
+
 

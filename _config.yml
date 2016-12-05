@@ -22,6 +22,7 @@ permalink:          /:year/:month/:day/:title/
 
 # Markdown
 markdown:           kramdown
+highlighter:        rouge
 
 # Navigation
 nav:

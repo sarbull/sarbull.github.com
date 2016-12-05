@@ -99,18 +99,18 @@ Nullam quis risus eget urna mollis ornare vel eu leo.
 ### Ruby
 ```ruby
 class Notebook
-	def initialize()
-		@notes = [] # массив заметок
-	end
-	def add_note(note) # добаавляет заметку в массив заметок
-		@notes << note.clone
-	end
-	def clean # удаляет все заметки
-		@notes.clear	
-	end
-	def notes
-		@notes
-	end
+  def initialize()
+    @notes = [] # массив заметок
+  end
+  def add_note(note) # добаавляет заметку в массив заметок
+    @notes << note.clone
+  end
+  def clean # удаляет все заметки
+    @notes.clear	
+  end
+  def notes
+    @notes
+  end
 end
 ```
 

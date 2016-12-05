@@ -24,9 +24,12 @@ permalink:          /:year/:month/:day/:title/
 #markdown:           kramdown
 #highlighter:        rouge
 
-markdown: kramdown
+markdown:           kramdown
+highlighter:        redcarpet
+
 kramdown:
   input: GFM
+  highlighter:        redcarpet
   syntax_highlighter: redcarpet
 
 # Navigation

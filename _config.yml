@@ -7,7 +7,7 @@ name:               "sarbull"
 description:        "webdeving around"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//sarbull.github.io"
+url:                "//www.sarbull.ro"
 author:             "sarbull"
 twitter:
   username:         "sarbull"
@@ -26,7 +26,7 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "//sarbull.github.io/about"
+    href:           "/about"
 
 # Sass
 sass:

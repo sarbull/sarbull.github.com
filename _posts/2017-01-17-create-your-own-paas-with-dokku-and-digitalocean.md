@@ -1,5 +1,5 @@
 ---
-title:        "Create your own PaaS with Dokku and Digitalocean"
+title:        "Create your own PaaS with Dokku and DigitalOcean"
 description:  ""
 image:        ""
 author:       "sarbull"

@@ -72,3 +72,15 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 |-----------------+------------+-----------------+----------------|
 
 Nullam quis risus eget urna mollis ornare vel eu leo.
+
+## Code samples
+
+### JSON
+```
+{
+  'stringKey': 'value',
+  directKey: 'another value',
+  number: 10
+}
+```
+

@@ -27,7 +27,7 @@ $ cd test
 $ git init
 $ touch file{1..4}.txt
 $ gs
-# On branch: master  |  [*] => $e*
+# On branch: master
 #
 > Untracked files
 #
@@ -37,7 +37,7 @@ $ gs
 #
 $ git add 1-3
 $ gs
-# On branch: master  |  [*] => $e*
+# On branch: master
 #
 > Changes to be committed
 #

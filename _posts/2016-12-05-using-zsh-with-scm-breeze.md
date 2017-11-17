@@ -12,6 +12,9 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 $ vim ~/.zshrc # ZSH_THEME="frisk"
 ```
 
+### "Frisk" theme
+![oh-my-zsh frisk theme](https://raw.githubusercontent.com/sarbull/sarbull.github.io/master/frisk-theme.png)
+
 ## scm_breeze
 SCM Breeze is a set of shell scripts (for bash and zsh) that enhance your interaction with git.
 

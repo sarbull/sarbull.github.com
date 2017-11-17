@@ -7,7 +7,7 @@ Oh-My-Zsh is an open source, community-driven framework for managing your ZSH co
 
 ### Installing oh-my-zsh
 ```bash
-$ sudo apt-get install zsh
+$ sudo apt-get install zsh # for Ubuntu
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 $ vim ~/.zshrc # ZSH_THEME="frisk"
 ```

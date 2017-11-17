@@ -27,21 +27,28 @@ $ ~/.scm_breeze/install.sh
 $ mkdir test
 $ cd test
 $ git init
-$ touch file{1..10}.txt
+$ touch file{1..4}.txt
 $ gs
 # On branch: master  |  [*] => $e*
 #
-➤ Untracked files
+> Untracked files
 #
 #      untracked:  [1] file1.txt 
-#      untracked:  [2] file10.txt 
-#      untracked:  [3] file2.txt 
-#      untracked:  [4] file3.txt 
-#      untracked:  [5] file4.txt 
-#      untracked:  [6] file5.txt 
-#      untracked:  [7] file6.txt 
-#      untracked:  [8] file7.txt 
-#      untracked:  [9] file8.txt 
-#      untracked: [10] file9.txt 
+#      untracked:  [2] file2.txt 
+#      untracked:  [3] file3.txt 
+#
+$ git add 1-3
+$ gs
+# On branch: master  |  [*] => $e*
+#
+> Changes to be committed
+#
+#       new file:  [1] file1.txt 
+#       new file:  [2] file2.txt 
+#       new file:  [3] file3.txt 
+#
+> Untracked files
+#
+#      untracked:  [4] file4.txt 
 #
 ```

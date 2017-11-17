@@ -2,8 +2,6 @@
 title: Using oh-my-zsh with scm_breeze
 ---
 
-# Using oh-my-zsh with scm_breeze
-
 ## oh-my-zsh
 Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration.
 

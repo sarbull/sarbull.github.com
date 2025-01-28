@@ -66,5 +66,5 @@ gems:
   - jekyll-seo-tag
 
 webserver_headers:
- - - Permissions-Policy
-   - "ch-ua-form-factor"
+  - - "Access-Control-Allow-Origin"
+    - "*"

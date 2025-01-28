@@ -66,5 +66,7 @@ gems:
   - jekyll-seo-tag
 
 webserver_headers:
-  - - "Access-Control-Allow-Origin"
+  - - Access-Control-Allow-Origin
     - "*"
+  - - Access-Control-Allow-Methods
+    - GET, OPTIONS, HEAD

@@ -1,5 +1,6 @@
 ---
-title: How to version my rails application
+title:        "How to version my rails application"
+author:       "sarbull"
 ---
 
 ## Step 1

@@ -67,4 +67,4 @@ gems:
 
 webserver_headers:
  - - Permissions-Policy
-   - "interest-cohort=()"
+   - "ch-ua-form-factor"

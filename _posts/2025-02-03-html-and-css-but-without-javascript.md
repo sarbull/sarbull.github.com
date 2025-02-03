@@ -27,4 +27,5 @@ Scenario: Create a form that has two steps for reading user input and you don't 
 
 ## Demo
 
-![demo](https://github.com/user-attachments/assets/eadd4df0-69c2-4ad0-bb29-a67e40576c3f)
+![demo](https://raw.githubusercontent.com/sarbull/sarbull.github.io/master/demo-html-css-form.gif)
+

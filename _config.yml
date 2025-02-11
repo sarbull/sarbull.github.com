@@ -20,13 +20,13 @@ baseurl:            ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
-#markdown: kramdown
+markdown: kramdown
 
-#kramdown:
-#  auto_ids: true
-#  input: GFM
-#  use_coderay: false
-#  syntax_highlighter: rouge
+kramdown:
+  auto_ids: true
+  nput: GFM
+  use_coderay: false
+  syntax_highlighter: none
 
 # Navigation
 nav:

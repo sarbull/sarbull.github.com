@@ -57,9 +57,15 @@ defaults:
 gems:
   - jekyll-seo-tag
 
-webserver_headers:
-  - - Permissions-Policy
-    - "interest-cohort=(browsing-topics)"
+webrick:
+  headers:
+    Permissions-Policy: "browsing-topics=*"
+    My-Other-Header: My-Other-Value
+
+# webserver_headers:
+  # - - Permissions-Policy
+    # - "interest-cohort=(browsing-topics)"
+    # browsing-topics=
 #  - - Access-Control-Allow-Origin
 #    - "*"
 #  - - Access-Control-Allow-Methods

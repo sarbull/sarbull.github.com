@@ -62,6 +62,12 @@ webrick:
     Permissions-Policy: "browsing-topics=*"
     My-Other-Header: My-Other-Value
 
+webserver_headers:
+  - - Permissions-Policy
+    - "browsing-topics=*"
+  - - Test-Me
+    - "yes-please"
+
 # webserver_headers:
   # - - Permissions-Policy
     # - "interest-cohort=(browsing-topics)"

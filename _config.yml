@@ -24,8 +24,8 @@ markdown: kramdown
 
 kramdown:
   auto_ids: true
-  nput: GFM
-  use_coderay: false
+  input: GFM
+  # use_coderay: false
   syntax_highlighter: none
 
 # Navigation

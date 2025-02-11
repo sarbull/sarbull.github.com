@@ -4,8 +4,7 @@ description:  ""
 author:       "sarbull"
 ---
 
-<pre class="stackoverflow-light"><code class="hljs language-javascript">
-const searchInArrayByObjectKey = (data, key) => {
+<pre class="stackoverflow-light"><code class="hljs language-javascript">const searchInArrayByObjectKey = (data, key) => {
   return data.find(d => d.key === key);
 };
 

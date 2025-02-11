@@ -20,6 +20,9 @@ baseurl:            ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
+markdown: kramdown
+highlighter: rouge
+
 # Markdown
 #markdown:           kramdown
 #highlighter:        rouge

@@ -4,14 +4,10 @@ description:  ""
 author:       "sarbull"
 ---
 
-```js
+```javascript
 
 const searchInArrayByObjectKey = (data, key) => {
-  const result = data.filter((d) => d.key === key);
-
-  if(result.length) {
-    return result.pop();
-  } 
+  return data.find(d => d.key === key);
 };
 
 const removeFromArrayByObjectKey = (data, key) => data.filter((d) => d.key !== key);

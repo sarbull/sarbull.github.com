@@ -58,7 +58,9 @@ gems:
   - jekyll-seo-tag
 
 webserver_headers:
-  - - Access-Control-Allow-Origin
-    - "*"
-  - - Access-Control-Allow-Methods
-    - GET, OPTIONS, HEAD
+  - - Permissions-Policy
+    - "interest-cohort=*, browsing-topics=*"
+#  - - Access-Control-Allow-Origin
+#    - "*"
+#  - - Access-Control-Allow-Methods
+#    - GET, OPTIONS, HEAD

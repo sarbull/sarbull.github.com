@@ -21,25 +21,12 @@ baseurl:            ""
 permalink:          /:year/:month/:day/:title/
 
 markdown: kramdown
-highlighter: rouge
 
-# Markdown
-#markdown:           kramdown
-#highlighter:        rouge
-
-#markdown:           kramdown
-
-#kramdown:
-#  input: GFM
-#  syntax_highlighter: rouge
-
-#markdown: kramdown
-
-#kramdown:
-#  auto_ids: true
-#  input: GFM
-#  use_coderay: false
-#  syntax_highlighter: rouge
+kramdown:
+  auto_ids: true
+  input: GFM
+  use_coderay: false
+  syntax_highlighter: rouge
 
 # Navigation
 nav:

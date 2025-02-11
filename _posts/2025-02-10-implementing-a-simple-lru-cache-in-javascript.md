@@ -4,8 +4,7 @@ description:  ""
 author:       "sarbull"
 ---
 
-```javascript
-
+```js
 const searchInArrayByObjectKey = (data, key) => {
   return data.find(d => d.key === key);
 };

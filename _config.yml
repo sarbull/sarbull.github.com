@@ -58,8 +58,6 @@ gems:
   - jekyll-seo-tag
 
 webserver_headers:
-  - - Permissions-Policy
-    - "interest-cohort=()"
   - - Access-Control-Allow-Origin
     - "*"
   - - Access-Control-Allow-Methods

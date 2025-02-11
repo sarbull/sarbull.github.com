@@ -59,7 +59,7 @@ gems:
 
 webserver_headers:
   - - Permissions-Policy
-    - "interest-cohort=*", "browsing-topics=*"
+    - "interest-cohort=(browsing-topics)"
 #  - - Access-Control-Allow-Origin
 #    - "*"
 #  - - Access-Control-Allow-Methods

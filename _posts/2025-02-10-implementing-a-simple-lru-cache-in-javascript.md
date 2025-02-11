@@ -4,7 +4,8 @@ description:  ""
 author:       "sarbull"
 ---
 
-<pre class="stackoverflow-light"><code class="hljs language-javascript">const searchInArrayByObjectKey = (data, key) => {
+```js
+const searchInArrayByObjectKey = (data, key) => {
   return data.find(d => d.key === key);
 };
 
@@ -49,4 +50,4 @@ cache.put(2, 2); // [{key: 2, value: 2}, {key: 1, value: 1}]
 cache.put(3, 3); // [{key: 3, value: 3}, {key: 2, value: 2}, {key: 1, value: 1}]
 cache.get(2);    // [{key: 2, value: 2}, {key: 3, value: 3}, {key: 1, value: 1}]
 cache.put(4, 4); // [{key: 2, value: 2}, {key: 3, value: 3}, {key: 1, value: 1}]
-</code></pre>
+```

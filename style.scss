@@ -186,7 +186,7 @@ blockquote {
 }
 
 code {
-  font-size: 13px;
+  font-size: 70%;
 }
 
 pre {
@@ -249,12 +249,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
-  max-width: 35rem;
+  max-width: 37rem;
   padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
 
-  @media (min-width: 35rem){
+  @media (min-width: 37rem){
     padding: 5rem 1rem;
   }
 }

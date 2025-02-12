@@ -5,8 +5,6 @@ image:        ""
 author:       "sarbull"
 ---
 
-## A Simple Reset CSS
-
 This `reset.css` is based on http://meyerweb.com/eric/tools/css/reset/.
 
 ```css

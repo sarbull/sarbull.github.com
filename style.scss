@@ -249,12 +249,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
-  max-width: 37rem;
+  max-width: 38rem;
   padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
 
-  @media (min-width: 37rem){
+  @media (min-width: 38rem){
     padding: 5rem 1rem;
   }
 }

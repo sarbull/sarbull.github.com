@@ -31,13 +31,13 @@ class LRUCache {
   }
 
   put(key, value) {
-    if(this.cache.length === this.size) {
-      return;
+    const result = searchInArrayByObjectKey(this.cache, key);
+
+    if(result) {
+      this.cache = removeFromArrayByObjectKey(this.cache, result.key);  
     }
 
     if(this.cache.length < this.size) {
-      this.cache = removeFromArrayByObjectKey(this.cache, result.key);
-
       this.cache.unshift({key: key, value: value});
     }
   }
